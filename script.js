@@ -37,7 +37,7 @@ class Player extends Canvasio.Sprite {
         this.speed = 0.15;
         this.limitToCanvasBorders(30,10);
         this.bounce = 1;
-        this.friction = 0.99;
+        this.friction = 0.9999;
     }
     update() {
         if (keyState.w) this.velocityY -= this.speed;
