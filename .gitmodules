@@ -1,0 +1,3 @@
+[submodule "lib/canvasio"]
+	path = lib/canvasio
+	url = https://github.com/jiricekcz/canvasio
